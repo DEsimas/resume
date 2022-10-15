@@ -20,6 +20,7 @@ main {
     background-color: var(--main-background);
     color: var(--font-color-dark);
     padding: 80px;
+    padding-top: 20px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -104,7 +105,7 @@ main h1 {
 }
 
 .contacts {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     font-size: 26px;
@@ -125,7 +126,6 @@ main h1 {
 }
 
 .education {
-    margin-top: 40px;
     font-size: 26px;
 }
 
@@ -171,4 +171,15 @@ ol li p {
 
 .projects-p {
     margin-bottom: 5px;
+}
+
+.tecnologies {
+    color: var(--header-color-dark);
+    margin-left: 20px;
+    border-left: solid var(--header-color) 3px;
+    padding-left: 10px;
+}
+
+li p {
+    margin-bottom: 10px;
 }
