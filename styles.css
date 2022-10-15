@@ -36,12 +36,17 @@ main {
     box-sizing: border-box;
 }
 
-.panel a {
+a {
     color: var(--header-color);
     text-decoration: none;
 }
 
-.panel a:hover {
+a:visited {
+    color: var(--header-color);
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
@@ -127,4 +132,19 @@ main h2 {
     text-transform: uppercase;
     border-bottom: 2px solid #b7b5b5;
     line-height: 100px;
+}
+
+h3 {
+    color: var(--header-color);
+    margin: 10px 0;
+    margin-top: 30px;
+}
+
+.education p {
+    margin: 5px 0;
+}
+
+.education span {
+    display: block;
+    margin: 15px 0;
 }
