@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    font-size: 32px;
+    font-family: Roboto;
+
+    --font-color-dark: #636262;
+    --font-color-light: #e3f1f6;
+    --main-background: white;
+    --header-color: #81a9cc;
+    --panel-background: #22405b;
+}
+
+main {
+    width: 65%;
+    background-color: var(--main-background);
+    color: var(--font-color-dark);
+}
+
+.panel {
+    width: 35%;
+    background-color: var(--panel-background);
+    color: var(--font-color-light);
+    padding: 80px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.panel a {
+    color: var(--font-color-light);
+    text-decoration: none;
+}
+
+.panel a:visited {
+    color: var(--header-color);
+    text-decoration: none;
+}
+
+.panel a:hover {
+    text-decoration: underline;
+}
+
+.panel-image {
+    height: 400px;
+    border-radius: 80px;
+    margin: auto;
+    display: block;
+}
+
+.panel h2 {
+    border-bottom: solid var(--font-color-light) 2px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.online-header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.online-header span {
+    margin-left: 20px;
+}
+
+.online-section a {
+    margin-left: 84px;
+}
+
+.skills p {
+    line-height: 55px;
+}
+
+li {
+    margin-top: 30px;
+}
