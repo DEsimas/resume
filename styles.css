@@ -5,6 +5,7 @@ body {
     display: flex;
     font-size: 32px;
     font-family: Roboto;
+    aspect-ratio: 1/1.4142;
 
     --font-color-dark: #636262;
     --font-color-light: #e3f1f6;
@@ -123,8 +124,13 @@ main h1 {
     color: var(--font-color-dark);
 }
 
-.summary {
-    margin-top: 150px;
+.education {
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.projects {
+    font-size: 26px;
 }
 
 main h2 {
@@ -147,4 +153,22 @@ h3 {
 .education span {
     display: block;
     margin: 15px 0;
+}
+
+ol li {
+    color: var(--header-color);
+}
+
+ol li p {
+    color: var(--font-color-dark);
+    margin-top: 10px;
+}
+
+.apps-list li {
+    color: var(--font-color-dark);
+    margin: 5px 0;
+}
+
+.projects-p {
+    margin-bottom: 5px;
 }
