@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    margin: 0;
-    display: flex;
-    font-size: 32px;
-    font-family: Roboto;
-    aspect-ratio: 1/1.4142;
+html {
+    width: 100%;
+    height: calc(100vw*297/210);
 
     --font-color-dark: #636262;
     --font-color-light: #e3f1f6;
@@ -15,12 +12,18 @@ body {
     --panel-background: #22405b;
 }
 
+body {
+    font-family: Roboto;
+    margin: 0;
+    display: flex;
+    font-size: 32px;
+}
+
 main {
     width: 65%;
     background-color: var(--main-background);
     color: var(--font-color-dark);
-    padding: 80px;
-    padding-top: 20px;
+    padding: 40px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -31,7 +34,7 @@ main {
     width: 35%;
     background-color: var(--panel-background);
     color: var(--font-color-light);
-    padding: 80px;
+    padding: 40px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
