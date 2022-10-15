@@ -37,11 +37,6 @@ main {
 }
 
 .panel a {
-    color: var(--font-color-light);
-    text-decoration: none;
-}
-
-.panel a:visited {
     color: var(--header-color);
     text-decoration: none;
 }
