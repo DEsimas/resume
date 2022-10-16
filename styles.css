@@ -3,12 +3,13 @@
 html {
     width: 100%;
     height: calc(100vw*297/210);
+    /* font-size: 1px; */
 
     --font-color-dark: #636262;
     --font-color-light: #e3f1f6;
     --header-color-dark: #4b4b4b;
-    --main-background: white;
-    --header-color: rgb(88, 164, 206);
+    --main-background: #ffffff;
+    --header-color: #58a4ce;
     --panel-background: #22405b;
 }
 
