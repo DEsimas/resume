@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-    width: 100%;
-    height: calc(100vw*297/210);
+    width: 1903px;
+    height: 2691px;
 
     --font-color-dark: #636262;
     --font-color-light: #e3f1f6;
