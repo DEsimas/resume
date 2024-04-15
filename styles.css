@@ -42,6 +42,10 @@ main {
     box-sizing: border-box;
 }
 
+p {
+    text-align: justify;
+}
+
 a {
     color: var(--header-color);
     text-decoration: none;
@@ -56,6 +60,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.date {
+    color: #58a4ce;
+}
+
+.panel p {
+    text-align: left;
+}
+
 .panel-image {
     height: 400px;
     border-radius: 80px;
@@ -68,6 +80,10 @@ a:hover {
     line-height: 80px;
     text-transform: uppercase;
     margin-top: 70px;
+}
+
+.online h2 {
+    margin-top: 0;
 }
 
 .online-header {
@@ -87,10 +103,6 @@ a:hover {
 
 .online-section a {
     margin-left: 84px;
-}
-
-.skills p {
-    line-height: 55px;
 }
 
 li {
@@ -136,12 +148,7 @@ main h1 {
 }
 
 .projects {
-    font-size: 26px;
-}
-
-.projects li:nth-child(3) {
-    margin-top: 300px;
-    padding-top: 40px;
+    font-size: 32px;
 }
 
 main h2 {
